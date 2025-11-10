@@ -39,16 +39,16 @@
 }
 
 #fly-in-element {
-  position: relative; /* Or absolute, fixed depending on your layout */
-  left: -100%; /* Start off-screen to the left */
-  animation: flyInFromLeft 0.35s ease-out forwards; /* Apply the animation */
+  position: relative;
+  left: -100%;
+  animation: flyInFromLeft 0.35s ease-out forwards;
 }
 
 @keyframes flyInFromLeft {
   0% {
-    left: -100%; /* Starting position off-screen left */
+    left: -100%;
   }
   100% {
-    left: 0; /* Final position on-screen */
+    left: 0;
   }
 }
