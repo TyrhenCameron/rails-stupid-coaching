@@ -41,7 +41,7 @@
 #fly-in-element {
   position: relative;
   left: -100%;
-  animation: flyInFromLeft 0.35s ease-out forwards;
+  animation: flyInFromLeft 0.45s ease-out forwards;
 }
 
 @keyframes flyInFromLeft {
