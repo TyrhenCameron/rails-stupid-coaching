@@ -1,0 +1,14 @@
+<%# html for view goes here %>
+<div class="p-2">
+  <div class="question">
+    <p>"<%= @question %>"</p>
+    <p class="you-footer">-You</p>
+</div>
+
+<div id="fly-in-element" class="answer">
+  <p>"<%= @answer %>"</p>
+  <p class="coach-footer">-Your Coach</p>
+</div>
+
+<%= link_to "Ask another question", ask_path, class: "text-decoration-none"%>
+</div>

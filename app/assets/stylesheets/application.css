@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+.question {
+  background-color: rgb(205, 205, 205, 0.6);
+  border-left: 4px solid darkgrey;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  margin: 1em 0;
+  width: 70vw;
+}
+
+.answer {
+  background-color: #fffac4;
+  border-left: 4px solid darkgrey;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  margin: 1em 0;
+  width: 70vw;
+}
+
+.coach-footer, .you-footer {
+  margin-top: 1px;
+  font-style: italic;
+  color: black;
+}
+
+#fly-in-element {
+  position: relative; /* Or absolute, fixed depending on your layout */
+  left: -100%; /* Start off-screen to the left */
+  animation: flyInFromLeft 0.35s ease-out forwards; /* Apply the animation */
+}
+
+@keyframes flyInFromLeft {
+  0% {
+    left: -100%; /* Starting position off-screen left */
+  }
+  100% {
+    left: 0; /* Final position on-screen */
+  }
+}
